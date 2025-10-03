@@ -1,0 +1,50 @@
+---
+import Header from "../components/Header.astro"
+import Footer from "../components/Footer.astro"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+
+		<!-- Make it not look like a 2010 website -->
+		<Header />
+
+		<!---Make a button and positionn this all to the center--->
+		<!--Put an image to the right side of the text -->
+
+		
+		<main>
+			<form action="index.php" method="POST">
+
+			  <input type="text" placeholder="Enter a web page URL">
+
+		    </form>
+			<br>
+
+		   
+		    <h1> Make your web pages fast on all devices</h1>
+
+		    <div>
+			   <br>
+			   <a href="/"> What's new </a>
+			   <br>
+		       <a href="/"> Documentation </a>
+			   <br>
+		       <a href="/"> What's new </a>
+		    </div>
+		
+		</main>
+			
+
+
+		<Footer />
+	
+	</body>
+</html>
