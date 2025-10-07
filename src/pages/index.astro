@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro"
 import Footer from "../components/Footer.astro"
+import "../styles/style.css";
 ---
 
 <html lang="en">
@@ -9,41 +10,45 @@ import Footer from "../components/Footer.astro"
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>PageSpeed</title>
 	</head>
 	<body>
 
-		<!-- Make it not look like a 2010 website -->
 		<Header />
 
-		<!---Make a button and positionn this all to the center--->
-		<!--Put an image to the right side of the text -->
-
-		
-		<main>
-			<form action="index.php" method="POST">
-
+		<div class="input">
+			<form>
+			  <!--button -->  
 			  <input type="text" placeholder="Enter a web page URL">
+ 		    </form>
+        </div>
 
-		    </form>
-			<br>
+		<selection class="//">
+			<div>
+				<h1> Make your web pages fast on all devices</h1>
+				<p>Check out</p>
 
-		   
-		    <h1> Make your web pages fast on all devices</h1>
+				<div class="//">
+				  <div class="//">
+					 <a href="//">What's new</a>
+				  </div>
 
-		    <div>
-			   <br>
-			   <a href="/"> What's new </a>
-			   <br>
-		       <a href="/"> Documentation </a>
-			   <br>
-		       <a href="/"> What's new </a>
-		    </div>
-		
-		</main>
-			
+				  <div class="//">
+					 <a href="//">Documentation</a>
+				  </div>
+
+				  <div class="//">
+					 <a href="//">Learn more about Web Performance</a>
+				  </div>
+				</div>
+
+			</div>
 
 
+		</selection>
+
+
+		<div class="break"></div>
 		<Footer />
 	
 	</body>
